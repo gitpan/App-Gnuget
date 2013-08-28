@@ -1,4 +1,4 @@
-package App::GnuGet;
+package App::Gnuget;
 use feature qw(say);
 use Net::FTP;
 
