@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 use strict;
-use GnuGet;
+use App::GnuGet;
 
 our $VERSION = '1.0';
 
