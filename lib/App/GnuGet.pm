@@ -2,7 +2,7 @@ package App::GnuGet;
 use feature qw(say);
 use Net::FTP;
 
-our $VERSION = 1.5;
+our $VERSION = 1.6;
 
 sub new {
     my $class = shift;
