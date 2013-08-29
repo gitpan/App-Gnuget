@@ -5,6 +5,7 @@ WriteMakefile(
     VERSION_FROM    => 'lib/App/Gnuget.pm',
     ABSTRACT        => 'A tool to grab GNU softwares',
     AUTHOR          => 'Sandro Cazzaniga <kharec@cpan.org>',
+    LICENSE         => 'GPLv3+',
     INSTALLBIN      => '/usr/bin',
     PREREQ_PM       => {
         "Test::More"          => 0,

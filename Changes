@@ -1,5 +1,8 @@
 Changelog for App-Gnuget
 
+1.9     2013-08-29:
+    - precise version in meta.yml 
+
 1.8     2013-08-28:
     - fix others stuffs like module name in sources
 
