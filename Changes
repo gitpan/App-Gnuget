@@ -1,7 +1,10 @@
 Changelog for App-Gnuget
 
+1.92    2013-08-30
+    - fix a typo in unit test (thanks srezic)
+
 1.91    2013-08-30
-    - use EXE_FILES in Makefile.PL so the programs will be sure to run properly even if perl is not in /usr/bin/perl
+    - use EXE_FILES in Makefile.PL so the programs will be sure to run properly even if perl is not in /usr/bin/perl (thanks Syaltut)
 
 1.9     2013-08-29
     - precise version in meta.yml 
