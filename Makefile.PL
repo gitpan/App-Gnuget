@@ -6,7 +6,7 @@ WriteMakefile(
     ABSTRACT        => 'A tool to grab GNU softwares',
     AUTHOR          => 'Sandro Cazzaniga <kharec@cpan.org>',
     LICENSE         => 'GPLv3+',
-    INSTALLBIN      => '/usr/bin',
+    EXE_FILES       => ['bin/gnuget'],
     PREREQ_PM       => {
         "Test::More"          => 0,
         "Net::FTP"            => 0,

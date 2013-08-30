@@ -1,22 +1,25 @@
 Changelog for App-Gnuget
 
-1.9     2013-08-29:
+1.91    2013-08-30
+    - use EXE_FILES in Makefile.PL so the programs will be sure to run properly even if perl is not in /usr/bin/perl
+
+1.9     2013-08-29
     - precise version in meta.yml 
 
-1.8     2013-08-28:
+1.8     2013-08-28
     - fix others stuffs like module name in sources
 
-1.7     2013-08-28:
+1.7     2013-08-28
     - fix unit test
 
-1.6     2013-08-28:
+1.6     2013-08-28
     - fix a typo in Makefile
     - add a META.yml
 
-1.5     2013-08-28:
+1.5     2013-08-28
     - fix code architecture
 
-1.0     2013-08-28:
+1.0     2013-08-28
     - initial release 
     
     
