@@ -1,8 +1,7 @@
 package App::Gnuget;
-use feature qw(say);
 use Net::FTP;
 
-our $VERSION = 1.92;
+our $VERSION = 1.925;
 
 sub new {
     my $class = shift;
@@ -13,7 +12,7 @@ sub new {
 
 sub log {
     my ($self, $msg) = @_;
-    say("[$$] $msg");
+    print("[$$] $msg\n");
 }
 
 sub buildFtpCnx {
