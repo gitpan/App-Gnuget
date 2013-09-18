@@ -1,5 +1,9 @@
 Changelog for App-Gnuget
 
+1.930   2013-09-18
+    - add a pod to App::Gnuget  
+    - fix versions in doc and help
+
 1.925   2013-09-03
     - don't use say() anymore to be able to run tests on perl 5.8
 

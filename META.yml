@@ -20,4 +20,4 @@ no_index:
     - inc
 requires:
   Net::FTP: 0
-version: 1.925
+version: 1.930

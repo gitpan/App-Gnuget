@@ -2,7 +2,7 @@
 use strict;
 use App::Gnuget;
 
-our $VERSION = '1.0';
+our $VERSION = '1.930';
 
 sub usage {
     "So this is a simple soft, to get versions of gnu software from their FTP.
@@ -40,7 +40,7 @@ gnuget - grab GNU softwares sources
 
 =head1 VERSION
 
-version 1.0
+version 1.930
 
 =head1 SYNOPSIS
 

@@ -58,3 +58,53 @@ sub uncompress {
 }
 
 1;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+App::Gnuget - Main module for gnuget tool
+
+=head1 VERSION
+
+version 1.930
+
+=head1 SYNOPSIS
+
+# Create object
+my $getter = new App::Gnuget;
+
+# Setup informations
+my ($software, $version) = ('make', '3.82');
+
+# Give informations to the object
+$getter->populate($software, $version);
+
+# Build Ftp connexion
+$getter->buildFtpCnx();
+
+# Download the archive
+$getter->download();
+
+# Unpack the archive
+$getter->uncompress();
+
+# Clean env
+$getter->clean()
+
+=head1 DESCRIPTION
+
+This module is the main module for gnuget software. It implements all functions needed by it, see the example above, which is basically the gnuget operation.
+
+=head1 AUTHOR
+
+Sandro CAZZANIGA <cazzaniga.sandro@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Sandro CAZZANIGA.
+
+This is free software; you can redistribute it and/or modify it 
+under the terms of GNU GPL version 3.
