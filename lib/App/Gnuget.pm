@@ -1,7 +1,7 @@
 package App::Gnuget;
 use Net::FTP;
 
-our $VERSION = 1.925;
+our $VERSION = 1.935;
 
 sub new {
     my $class = shift;
@@ -69,30 +69,30 @@ App::Gnuget - Main module for gnuget tool
 
 =head1 VERSION
 
-version 1.930
+version 1.935
 
 =head1 SYNOPSIS
 
-# Create object
-my $getter = new App::Gnuget;
+    # Create object
+    my $getter = new App::Gnuget;
 
-# Setup informations
-my ($software, $version) = ('make', '3.82');
+    # Setup informations
+    my ($software, $version) = ('make', '3.82');
 
-# Give informations to the object
-$getter->populate($software, $version);
+    # Give informations to the object
+    $getter->populate($software, $version);
 
-# Build Ftp connexion
-$getter->buildFtpCnx();
+    # Build Ftp connexion
+    $getter->buildFtpCnx();
 
-# Download the archive
-$getter->download();
+    # Download the archive
+    $getter->download();
 
-# Unpack the archive
-$getter->uncompress();
+    # Unpack the archive
+    $getter->uncompress();
 
-# Clean env
-$getter->clean()
+    # Clean env
+    $getter->clean()
 
 =head1 DESCRIPTION
 
